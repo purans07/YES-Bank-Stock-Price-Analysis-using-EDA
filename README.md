@@ -53,8 +53,8 @@ Random Forest Regressor achieved the best performance and was saved as a deploym
 - NumPy
 - Matplotlib
 - Seaborn
--Scikit-Learn
--Joblib
+- Scikit-Learn
+- Joblib
 
 ---
 
