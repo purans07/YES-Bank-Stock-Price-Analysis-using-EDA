@@ -1,4 +1,4 @@
-# YES Bank Stock Price Analysis using Exploratory Data Analysis (EDA)
+# YES Bank Stock Price Prediction using Machine Learning
 
 ## Project Overview
 
@@ -26,6 +26,25 @@ The dataset contains historical stock prices of YES Bank including:
 
 ---
 
+## Machine Learning
+
+The project implements multiple regression algorithms including:
+
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+
+The models were evaluated using:
+
+- MAE
+- MSE
+- RMSE
+- R² Score
+
+Random Forest Regressor achieved the best performance and was saved as a deployment-ready model.
+
+---
+
 ## Tools & Technologies
 
 - Python
@@ -34,6 +53,8 @@ The dataset contains historical stock prices of YES Bank including:
 - NumPy
 - Matplotlib
 - Seaborn
+-Scikit-Learn
+-Joblib
 
 ---
 
@@ -99,7 +120,7 @@ The notebook contains 15 different visualizations including:
 
 ## Conclusion
 
-The exploratory analysis successfully identified important stock price trends, strong relationships among price variables, and periods of significant market volatility. The insights generated from this project can support investors, analysts, and financial institutions in making more informed investment decisions.
+This project successfully combines exploratory data analysis and machine learning to predict YES Bank stock closing prices. After analyzing historical trends and engineering relevant features, multiple regression models were trained and evaluated. The Random Forest Regressor produced the best predictive performance and was saved for future deployment. The project demonstrates the complete end-to-end data science workflow, from data exploration to deployment-ready model creation.
 
 ---
 
@@ -109,7 +130,6 @@ The exploratory analysis successfully identified important stock price trends, s
 
 Data Science with AI Intern
 
-LABMENTIX
 
 ---
 
